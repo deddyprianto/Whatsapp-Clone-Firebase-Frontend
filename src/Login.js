@@ -21,9 +21,12 @@ function Login() {
          <div className="login__container">
             <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="" />
             <div className="login__text">
-               <h1>Masuk Ke WhatsApp</h1>
+               <h1>Masuk Ke WhatsApp Web</h1>
             </div>
-            <Button onClick={signIn}>Masuk Menggunakan Google</Button>
+            <Button onClick={signIn}>
+               <img className="google__tombol" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1004px-Google_%22G%22_Logo.svg.png" alt="google.png" />
+               Masuk Menggunakan Gmail Anda
+               </Button>
          </div>
       </div>
    )
