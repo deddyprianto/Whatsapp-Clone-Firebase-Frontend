@@ -45,7 +45,7 @@ function SidebarChat({ id, name, addNewChat }) {
       </Link>
    ) : (
          <div className="sidebarChat" onClick={createChat}>
-            <h2>Tambahkan Chat Baru</h2>
+            <h3>Add a new GRUP chat</h3>
          </div>
       );
 }

@@ -82,7 +82,7 @@ function Chat() {
          <div className="chat__footer">
             <InsertEmoticon />
             <form>
-               <input value={input} onChange={e => setInput(e.target.value)} type="text" />
+               <input value={input} placeholder="Ketikan Pesan" onChange={e => setInput(e.target.value)} type="text" />
                <button type="submit" onClick={sendMessage}>Send</button>
             </form>
             <Mic />

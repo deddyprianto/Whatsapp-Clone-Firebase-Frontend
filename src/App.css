@@ -1,12 +1,12 @@
-.app {
-  background-color: #dadbd3;
-  height: 100vh;
+.App {
+  background-color: rgb(0, 150, 136);
+  height: 15vh;
   display: grid;
   place-items: center;
 }
 
 .app__body {
-  margin: 50px auto;
+  margin: 60px auto;
   display: flex;
   height: 90vh;
   width: 90vw;
